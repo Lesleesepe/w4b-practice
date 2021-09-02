@@ -1,0 +1,94 @@
+body {
+    border: 5px solid rgb(88, 62, 88);
+    background-image: url(https://images.unsplash.com/photo-1595770682043-b5b3292d0314?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(97, 95, 95);   
+    border: 1px solid rgb(243, 209, 252) ;
+    position: top;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    display:inline;
+    float: right;    
+    border-left: 1px solid rgb(243, 209, 252);
+    display: block;
+    padding: 8px;
+    color: rgb(243, 209, 252);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color:rgb(26, 3, 32);
+}
+
+.header {
+    color:rgb(243, 209, 252);
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(97, 95, 95);   
+    border: 1px solid rgb(243, 209, 252);
+    padding: none;
+}
+
+
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    content:' ';
+}
+
+.section {
+    background-color: thistle;
+    padding: 8px;
+    float: left;
+    width: 70%;
+    height: 200px;
+}
+
+.article {
+    background-color: rgb(97, 95, 95); 
+    padding: 8px;
+    height: 150px;
+    float: left;
+    width: 70%;
+    color:thistle;
+}
+
+.aside {
+    background-color: rgb(24, 21, 24);
+    padding: 16px;
+    color: thistle;
+    height: 350px;
+    float:right;
+    width: 30%;
+}
+
+.footer {
+    background-color: thistle;
+    font-size: 30px;
+    padding: 8px;
+    text-align:center;
+    color: rgb(235, 228, 235);
+    text-shadow: rgb(65, 56, 65) 4px 4px ;
+}
+
+.boxshadow{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(200, 142, 216);
+    margin: 10px;
+    box-shadow: rgb(202, 176, 202) 10px 10px 4px;
+}
+
